@@ -3,7 +3,7 @@ const color = require('color');
 const flattenColorPalette = require('./utils/flattenColorPalette')
 
 
-export default function () {
+module.exports = function () {
     return function ({ addUtilities, e, theme, variants }) {
         const colors = flattenColorPalette(theme('~'))
         const utilities = _.fromPairs(
