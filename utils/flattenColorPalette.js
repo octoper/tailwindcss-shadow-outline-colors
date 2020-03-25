@@ -1,4 +1,4 @@
-import _ from 'lodash'
+const _ = require('lodash');
 
 export default function flattenColorPalette(colors) {
   const result = _(colors)
