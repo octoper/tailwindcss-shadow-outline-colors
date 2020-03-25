@@ -6,7 +6,8 @@
   "repository": "https://github.com/octoper/tailwindcss-shadow-outline-colors",
   "author": {
     "name": "Vaggelis Yfantis",
-    "email": "vaggelisyfantis@gmail.com"
+    "email": "vaggelisyfantis@gmail.com",
+    "url": "https://octoper.me"
   },
   "license": "MIT",
   "dependencies": {
