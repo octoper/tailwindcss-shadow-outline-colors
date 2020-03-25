@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-sahdow-outline-colors",
+  "version": "0.0.1",
+  "description": "A plugin for creating shadow outline for all background colors",
+  "main": "index.js",
+  "repository": "https://github.com/octoper/tailwindcss-shadow-outline-colors",
+  "author": {
+    "name": "Vaggelis Yfantis",
+    "email": "vaggelisyfantis@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "color": "^3.1.2"
+  }
+}
