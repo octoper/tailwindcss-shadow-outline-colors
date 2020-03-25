@@ -5,7 +5,7 @@ const flattenColorPalette = require('./utils/flattenColorPalette')
 
 module.exports = function () {
     return function ({ addUtilities, e, theme, variants }) {
-        const colors = flattenColorPalette(theme('~'))
+        const colors = flattenColorPalette(theme('shadowOutlineColors'))
         const utilities = _.fromPairs(
             _.map(_.omit(colors, 'default'), (value, modifier) => {
                 return [

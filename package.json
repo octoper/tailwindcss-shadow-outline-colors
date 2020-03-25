@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-sahdow-outline-colors",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A plugin for creating shadow outline for all background colors",
   "main": "index.js",
   "repository": "https://github.com/octoper/tailwindcss-shadow-outline-colors",

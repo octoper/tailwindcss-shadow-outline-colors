@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-export default function flattenColorPalette(colors) {
+module.exports = function flattenColorPalette(colors) {
   const result = _(colors)
     .flatMap((color, name) => {
       if (!_.isObject(color)) {
