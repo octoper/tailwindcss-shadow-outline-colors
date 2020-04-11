@@ -22,3 +22,58 @@ plugins: [
     require('tailwindcss-shadow-outline-colors')()
 ]
 ```
+
+## Colors
+By default we use the `colors` variable from you TailwindCSS config.
+But if you want to use different colors you can add `shadowOutlineColors` variable in your config
+
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    shadowOutlineColors: {
+        'primary': {
+            500: '#EA4C89',
+            600: '#D3447B',
+            700: '#BE3D6F',
+        },
+    }
+  },
+  variants: {},
+  plugins: [
+    plugins: [ require('tailwindcss-shadow-outline-colors')() ]
+  ],
+}
+```
+
+## Variants
+You can add `hover`, `focus` or any othe variant just place `shadowOutline` in your variants
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {},
+  variants: {
+    'shadowOutline': ['focus']
+  },
+  plugins: [
+    plugins: [ require('tailwindcss-shadow-outline-colors')() ]
+  ],
+}
+```
+
+## Shadow and Opacity
+You can also change the your shadow style and the opacity of the color 
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    shadowOutline: {
+        'shadow': '0 0 0 0.2em',
+        'alpha': '0.5'
+    }
+  },
+  plugins: [
+    plugins: [ require('tailwindcss-shadow-outline-colors')() ]
+  ],
+}
+```
