@@ -1,7 +1,7 @@
 # Tailwind CSS Shadow Outline Colors
 
-![license](https://badgen.net/github/license/octoper/tailwindcss-shadow-outline-colors)
-![npm](https://badgen.net/npm/v/tailwindcss-shadow-outline-colors)
+[![license](https://badgen.net/github/license/octoper/tailwindcss-shadow-outline-colors)](https://github.com/octoper/tailwindcss-shadow-outline-colors/blob/master/LICENSE)
+[![npm](https://badgen.net/npm/v/tailwindcss-shadow-outline-colors)](https://www.npmjs.com/package/tailwindcss-shadow-outline-colors)
 
 ## Installation
 
